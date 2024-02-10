@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // If validation passes, redirect to Register.php
-    header("Location: Register.php");
+    header("Location: signup.php");
     exit();
 }
 
